@@ -1,0 +1,15 @@
+.product {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );
+    gap: 100px;
+}
+.img{
+    width: 250px;
+}
+.p{
+    color: #000;
+    text-decoration: none;
+}
+.link {
+  text-decoration: none;
+}
