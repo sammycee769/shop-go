@@ -1,7 +1,7 @@
 import { Outlet, useLocation } from "react-router";
 import Navbar from "./Navbar";
 
-const NO_NAV_ROUTES = ["/", "/login"];
+const NO_NAV_ROUTES = ["/login", "/register"  ];
 
 export default function Layout() {
   const { pathname } = useLocation();
