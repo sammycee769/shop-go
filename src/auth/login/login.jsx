@@ -28,7 +28,7 @@ export default function Login() {
       const { token } = await login(userProfile).unwrap();
       if (!token) { setError("Login failed. Please check your credentials."); return; }
       localStorage.setItem("authToken", token);
-      navigate("/home");
+      navigate("/");
     } catch (err) {
       setError("Login failed. Please check your credentials.");
     }
